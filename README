@@ -1,0 +1,27 @@
+M         M       VVV             VVV
+MM       MM        VVV           VVV
+MMM     MMM         VVV         VVV
+MMMM   MMMM          VVV       VVV III
+MMMMM MMMMM YYY   YYY VVV     VVV       MM   MM
+MMM  M  MMM  YY   YY   VVV   VVV   III  MMM MMM
+MMM     MMM   YY YY     VVVVVVV    III  MMMMMMM
+MMM     MMM    YYY       VVVVV     III  MM M MM
+MMM     MMM    YY         VVV      III  MM   MM
+              YY     
+            YYY      
+_______________________________________________
+
+Title: Config files and plugins for Vi improved
+Author: cyberbrain
+Date: 12.09.2013
+
+I)   Introduction
+II)  Instalation
+III) Content:
+     -NERDTree
+     -syntax
+     -supertab
+     -phpqa
+     -phpunitqf
+     -surround
+     
