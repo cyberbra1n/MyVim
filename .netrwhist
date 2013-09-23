@@ -1,6 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='/home/cyberbrain/Scripts/Shell/network'
 let g:netrw_dirhist_2='/home/cyberbrain/Scripts/Python/golfoonManage'
 let g:netrw_dirhist_3='/home/cyberbrain/workspace/djangotutorial/djangotutorial'
 let g:netrw_dirhist_4='/home/cyberbrain/workspace/mainstream'
+let g:netrw_dirhist_5='/home/cyberbrain/Scripts/Python/mysql_conn_generators'
+let g:netrw_dirhist_6='/etc/php5'
+let g:netrw_dirhist_7='/usr/share/php/PHP/CodeSniffer'
+let g:netrw_dirhist_8='/home/cyberbrain/Scripts/Python'
