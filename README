@@ -24,4 +24,6 @@ III) Content:
      -phpqa
      -phpunitqf
      -surround
-     
+     -PHP CheckSyntax
+     -folds
+     -python pep8 check     
