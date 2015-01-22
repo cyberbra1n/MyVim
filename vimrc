@@ -97,3 +97,9 @@ set foldtext=v:folddashes.substitute(getline(v:foldstart),'/\\*\\\|\\*/\\\|{{{\\
 " ----------------------------------------------------------------------------------
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " ----------------------------------------------------------------------------------
+
+" SETUP DEFAULT THEME
+colorscheme desert
+
+" HIHGLIGHT INC SEARCH (*,# keys)
+set hlsearch
