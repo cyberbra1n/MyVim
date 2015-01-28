@@ -1,0 +1,55 @@
+#new file comments
+snippet nfc
+	1
+	/**
+	 * @description ${0:description}
+	 *
+	 * PHP version 5.5
+	 *
+	 * @category   ${1:Lottery Game}
+	 * @package    ${2:Mappers}
+	 * @author     ${3:author} < ${4:email} >
+	 * @author     ${5:author} < ${6:email} >
+	 * @version    SVN: ${7}
+	 */
+
+#new class comments
+snippet ncc
+	/** 
+	 * @description ${0:description}
+	 * 
+	 * @category     ${1:CategoryName}
+	 * @package      ${2:PackageName}
+	 * 
+	 * @author        ${3:Author} ${4:email}
+	 * @author        ${4:Another Author} <${5:email.com}>
+	 * 
+	 * @deprecated Class ${6:classname} deprecated in Release ${7:relese}
+	 */
+
+#new class variable comments
+snippet nvc
+	/**
+	 * ${0:description}
+	 */
+
+#new method comments
+snippet nmc
+	/**
+	 * @description ${0:description}
+	 *
+	 * @param ${1:type} ${2:name}
+	 *
+	 * @return ${3:type} ${4:name} ${5:short description}
+	 * @throws Exception ${6:exception}
+	 *
+	 * @access ${7:public}
+	 * @author ${8:author}
+	 */ 
+
+#var dump and die
+snippet vvd
+	var_dump($${0:expresion}); die();
+
+snippet <vvd
+	<?php var_dump($${0:expresion}); die(); ?>
