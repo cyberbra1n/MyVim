@@ -16,14 +16,24 @@ Author: cyberbrain
 Date: 12.09.2013
 
 I)   Introduction
+    This is my vim configuration repository. It primary goal is
+    to provide IDE for easy and fast development. It is used and
+    tested for PHP and Python projects and works well. Everything
+    else you need you can install via pathogen. :P
+
 II)  Instalation
+    Clone this directory to your ~/.vim directory. Then map vimrc
+    to your home dir so config is invoked on vim startup.
+
 III) Content:
-     -NERDTree
-     -syntax
-     -supertab
-     -phpqa
-     -phpunitqf
-     -surround
-     -PHP CheckSyntax
-     -folds
-     -python pep8 check     
+     -NERDTree              - Side panel tree navigation (F1)
+     -syntax                - Syntax highlight (Auto)
+     -supertab              - Tabs for buffers
+     -phpqa (disabled)      - PHP quality checking tools
+     -phpunitqf             - PHP Unit test tool for vim
+     -surround              - Parentheses, brackets, quotes, XML tags
+     -PHP CheckSyntax       - PHP syntax check
+     -folds                 - Folding (check fold method) (za,zf,zd...)
+     -python pep8           - PEP8 coding standard check
+     -snippets              - Define your snippets in ~/.vim/after/snippets/
+     -ctags                 - Jump to definition of class or method (Ctrl+], Ctrl+t)

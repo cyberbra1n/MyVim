@@ -16,15 +16,15 @@ snippet nfc
 #new class comments
 snippet ncc
 	/** 
-	 * @description ${0:description}
+	 * @description ${1:description}
 	 * 
-	 * @category     ${1:CategoryName}
-	 * @package      ${2:PackageName}
+	 * @category     ${2:CategoryName}
+	 * @package      ${3:PackageName}
 	 * 
-	 * @author        ${3:Author} ${4:email}
-	 * @author        ${4:Another Author} <${5:email.com}>
+	 * @author        ${4:Author} ${5:email}
+	 * @author        ${6:AnotherAuthor} <${7:email.com}>
 	 * 
-	 * @deprecated Class ${6:classname} deprecated in Release ${7:relese}
+	 * @deprecated Class ${8:classname} deprecated in Release ${9:relese}
 	 */
 
 #new class variable comments
@@ -32,6 +32,7 @@ snippet nvc
 	/**
 	 * ${0:description}
 	 */
+
 
 #new method comments
 snippet nmc
@@ -47,9 +48,16 @@ snippet nmc
 	 * @author ${8:author}
 	 */ 
 
+
 #var dump and die
 snippet vvd
 	var_dump($${0:expresion}); die();
 
+
 snippet <vvd
 	<?php var_dump($${0:expresion}); die(); ?>
+
+snippet me
+	Petar Zivkovic
+snippet myemail
+	<p.zivkovic@corequalitysolutions.com>
