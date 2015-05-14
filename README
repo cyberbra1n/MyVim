@@ -37,3 +37,4 @@ III) Content:
      -python pep8           - PEP8 coding standard check
      -snippets              - Define your snippets in ~/.vim/after/snippets/
      -ctags                 - Jump to definition of class or method (Ctrl+], Ctrl+t)
+     -themes                - Monokai, Mustang, Solarized

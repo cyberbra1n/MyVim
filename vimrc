@@ -57,9 +57,9 @@ autocmd BufWinEnter *.* silent loadview
 " EXECUTE SCRIPT SETUP
 " ----------------------------------------------------------------------------------
 "if python file map F2 and F3
-autocmd BufNewFile,BufRead *.py map <f2> :w\|!python %<cr>
+"autocmd BufNewFile,BufRead *.py map <f2> :w\|!python %<cr>
 autocmd BufNewFile,BufRead *.py map <f3> :w\|!python3 %<cr>
-autocmd BufNewFile,BufRead *.php map <f2> :w\|!/usr/bin/php5 -l %<cr>
+"autocmd BufNewFile,BufRead *.php map <f2> :w\|!/usr/bin/php5 -l %<cr>
 " ----------------------------------------------------------------------------------
 
 
@@ -98,8 +98,34 @@ set foldtext=v:folddashes.substitute(getline(v:foldstart),'/\\*\\\|\\*/\\\|{{{\\
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 " ----------------------------------------------------------------------------------
 
+
 " SETUP DEFAULT THEME
-colorscheme desert
+" ----------------------------------------------------------------------------------
+syntax enable
+colorscheme monokai
+" ----------------------------------------------------------------------------------
+
 
 " HIHGLIGHT INC SEARCH (*,# keys)
+" ----------------------------------------------------------------------------------
 set hlsearch
+" ----------------------------------------------------------------------------------
+
+" SHOW BUFFER LIST
+" ----------------------------------------------------------------------------------
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+nmap <silent> <F2> :bnext<CR>
+nmap <silent> <F3> :bprevious<CR>
+
+" ----------------------------------------------------------------------------------
+
+
+" Setting up debuger:
+" ----------------------------------------------------------------------------------
+let g:vdebug_options = {}
+let g:vdebug_options["port"] = 9000
+let g:vdebug_options["server"] = '192.168.76.117'
+let g:vdebug_options["path_maps"] = { "/var/www-workspace/trunk": "/home/cyberbrain/Workspace/mydev/trunk"}
+" ----------------------------------------------------------------------------------
