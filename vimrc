@@ -22,7 +22,9 @@ filetype plugin indent on
 " NERDTREE
 " -----------------------------------------------------------------------------------
 "autocmd VimEnter * NERDTree "uncomment to enable NERDTree autostart
-nmap <silent> <F1> :NERDTreeToggle<CR>
+nmap <silent> <F1> :NERDTreeTabsToggle<CR>
+nmap <silent> <F2> :tabnext<CR>
+nmap <silent> <F3> :tabprevious<CR>
 autocmd VimEnter * wincmd p
 let NERDTreeShowBookmarks=1
 let NERDTreeChDirMode=0
@@ -33,6 +35,12 @@ let NERDTreeIgnore=['\.pyc','\~$','\.swo$','\.swp$','\.git','\.hg','\.svn','\.bz
 let NERDTreeKeepTreeInNewTab=1
 let g:nerdtree_tabs_open_on_gui_startup=0
 " ----------------------------------------------------------------------------------
+
+" TAGLIST
+" -----------------------------------------------------------------------------------
+let Tlist_WinWidth = 30
+nmap <silent> <F4> :TlistToggle<CR>
+" -----------------------------------------------------------------------------------
 
 
 
@@ -113,11 +121,11 @@ set hlsearch
 
 " SHOW BUFFER LIST
 " ----------------------------------------------------------------------------------
-let g:airline#extensions#tabline#enabled = 1
-let g:airline#extensions#tabline#left_sep = ' '
-let g:airline#extensions#tabline#left_alt_sep = '|'
-nmap <silent> <F2> :bnext<CR>
-nmap <silent> <F3> :bprevious<CR>
+"let g:airline#extensions#tabline#enabled = 1
+"let g:airline#extensions#tabline#left_sep = ' '
+"let g:airline#extensions#tabline#left_alt_sep = '|'
+"nmap <silent> <F2> :bnext<CR>
+"nmap <silent> <F3> :bprevious<CR>
 
 " ----------------------------------------------------------------------------------
 
@@ -129,3 +137,4 @@ let g:vdebug_options["port"] = 9000
 let g:vdebug_options["server"] = '192.168.76.117'
 let g:vdebug_options["path_maps"] = { "/var/www-workspace/trunk": "/home/cyberbrain/Workspace/mydev/trunk"}
 " ----------------------------------------------------------------------------------
+
