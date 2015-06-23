@@ -23,8 +23,8 @@ filetype plugin indent on
 " -----------------------------------------------------------------------------------
 "autocmd VimEnter * NERDTree "uncomment to enable NERDTree autostart
 nmap <silent> <F1> :NERDTreeTabsToggle<CR>
-nmap <silent> <F2> :tabnext<CR>
-nmap <silent> <F3> :tabprevious<CR>
+nmap <silent> <F2> :tabprevious<CR>
+nmap <silent> <F3> :tabnext<CR>
 autocmd VimEnter * wincmd p
 let NERDTreeShowBookmarks=1
 let NERDTreeChDirMode=0
@@ -66,7 +66,7 @@ autocmd BufWinEnter *.* silent loadview
 " ----------------------------------------------------------------------------------
 "if python file map F2 and F3
 "autocmd BufNewFile,BufRead *.py map <f2> :w\|!python %<cr>
-autocmd BufNewFile,BufRead *.py map <f3> :w\|!python3 %<cr>
+"autocmd BufNewFile,BufRead *.py map <f3> :w\|!python3 %<cr>
 "autocmd BufNewFile,BufRead *.php map <f2> :w\|!/usr/bin/php5 -l %<cr>
 " ----------------------------------------------------------------------------------
 
