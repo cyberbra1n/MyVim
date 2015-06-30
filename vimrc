@@ -25,6 +25,8 @@ filetype plugin indent on
 nmap <silent> <F1> :NERDTreeTabsToggle<CR>
 nmap <silent> <F2> :tabprevious<CR>
 nmap <silent> <F3> :tabnext<CR>
+let g:airline#extensions#tabline#fnamemod = ':t'
+
 autocmd VimEnter * wincmd p
 let NERDTreeShowBookmarks=1
 let NERDTreeChDirMode=0
@@ -33,7 +35,7 @@ let NERDTreeMouseMode=2
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.pyc','\~$','\.swo$','\.swp$','\.git','\.hg','\.svn','\.bzr']
 let NERDTreeKeepTreeInNewTab=1
-let g:nerdtree_tabs_open_on_gui_startup=0
+let g:nerdtree_tabs_open_on_gui_startup=1
 " ----------------------------------------------------------------------------------
 
 " TAGLIST
