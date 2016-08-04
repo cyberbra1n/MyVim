@@ -26,15 +26,10 @@ II)  Instalation
     to your home dir so config is invoked on vim startup.
 
 III) Content:
-     -NERDTree              - Side panel tree navigation (F1)
      -syntax                - Syntax highlight (Auto)
-     -supertab              - Tabs for buffers
-     -phpqa (disabled)      - PHP quality checking tools
-     -phpunitqf             - PHP Unit test tool for vim
+     -airline               - Tabs for buffers
      -surround              - Parentheses, brackets, quotes, XML tags
-     -PHP CheckSyntax       - PHP syntax check
      -folds                 - Folding (check fold method) (za,zf,zd...)
-     -python pep8           - PEP8 coding standard check
      -snippets              - Define your snippets in ~/.vim/after/snippets/
      -ctags                 - Jump to definition of class or method (Ctrl+], Ctrl+t)
-     -themes                - Monokai, Mustang, Solarized
+     -themes                - Monokai, HappyHacking...
