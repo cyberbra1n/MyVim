@@ -108,6 +108,7 @@ nmap <silent> <F2> :bnext!<CR>
 nmap <silent> <F4> :TlistToggle<CR>
 " visual select search
 :vn // y/<C-R>"<CR>
+command! -nargs=0 Sw w !sudo tee % > /dev/null
 
 " IDENT SETTINGS
 " ----------------------------------------------------------------------------------
