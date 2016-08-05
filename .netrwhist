@@ -1,4 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_cnt =5
 let g:netrw_dirhist_1='/home/cyberbrain/.vim/colors'
-let g:netrw_dirhist_2='/home/cyberbrain/.vim/view'
+let g:netrw_dirhist_2='/home/cyberbrain/Workspace/myTools/Croner/src'
+let g:netrw_dirhist_3='/home/cyberbrain/Workspace/myTools/Croner/src/config'
+let g:netrw_dirhist_4='/home/cyberbrain/Workspace/myTools/Croner/src'
+let g:netrw_dirhist_5='/home/cyberbrain/Workspace/myTools/Croner/src/process'

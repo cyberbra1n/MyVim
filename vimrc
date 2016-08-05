@@ -9,8 +9,9 @@ call pathogen#runtime_append_all_bundles()
 
 " THEME SETUP
 " ----------------------------------------------------------------------------------
-"set background=light
-colorscheme happy_hacking
+set background=dark
+colorscheme solarized
+"let g:solarized_termcolors=256
 set nu
 " ----------------------------------------------------------------------------------
 
